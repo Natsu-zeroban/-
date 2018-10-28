@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>多平台音乐搜索</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./static/styles/nav.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+<header>
+    <img  id="logo" src="image/logo.png">
+  <div id="title">
+    <h2 >多平台音乐搜索</h2>
+    <p >——研发二面项目</p></div>
+</header>
+
+<div id="container">
+    <div id="introduction">
+        <p>各大音乐平台集合，提供搜索、播放、下载一条龙服务。
+        </p>
+    </div>
+    <form method="get" >
+        <div id="searchType">
+<ul >
+    <li>搜歌名</li>
+    <li>搜歌手</li>
+    <li>搜专辑</li>
+</ul>
+        </div>
+        <div id="searchBar">
+<input type="search" name="search"  id="search" placeholder="请输入要搜索的内容">
+<input type="button" name="submit" id="submit" value="搜索"></div>
+        <div></div>
+
+        <div id="searchPlace">
+        <label><input name="radio" type="radio" value="" />QQ </label>
+        <label><input name="radio" type="radio" value="" />网易云 </label>
+        <label><input name="radio" type="radio" value="" />虾米</label>
+        <label><input name="radio" type="radio" value="" />酷我</label>
+        <label><input name="radio" type="radio" value="" />酷狗 </label>
+        </div>
+    </form>
+
+
+    <div id="result" >
+        <button id="return">返回</button>
+        <div id="music"><img src="image/music.jpg">
+        <audio src="media/Classical%20Artists%20-%20Blue%20Danube%20Waltz%20(蓝色多瑙河)(1).mp3" controls ></audio>
+            <span class="resule-name">蓝色多瑙河</span><br/><span class="resule-author">约翰·施特劳斯</span>
+        </div>
+ <ul>
+     <li><span class="result-num">1</span><span class="result-name">蓝色多瑙河</span><span class="result-author">约翰·施特劳斯</span></li>
+     <li><span class="result-num">2</span><span class="result-name">红色多瑙河</span><span class="result-author">周杰伦</span></li>
+     <li><span class="result-num">3</span><span class="result-name">绿色多瑙河</span><span class="result-author">周杰伦</span></li>
+     <li><span class="result-num">4</span><span class="result-name">黄色多瑙河</span><span class="result-author">周杰伦</span></li>
+     <li><span class="result-num">5</span><span class="result-name">黑色多瑙河</span><span class="result-author">周杰伦</span></li>
+
+ </ul>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+<footer>
+    <p>
+        友情链接： <a href="http://www.scu.edu.cn/">四川大学官网</a>
+        <a href="https://www.fyscu.com/">四川大学飞扬俱乐部</a></p>
+    <p> Copyright ©2018 研发二面等死小组
+        <br/> All Rights Reserved
+    </p>
+
+</footer>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

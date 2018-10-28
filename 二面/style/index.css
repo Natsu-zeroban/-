@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: linear-gradient(156deg, #00ff82 0%, #24e7ff 100%);
+    background-size: 100%, 100%;
+    overflow-x: hidden;
+
+}
+
+.box-body {
+    background-size: 100% 100%;
+    height: 1080px;
+
+}
+
+
+header {
+height: 10%;
+
+}
+#logo {
+    width: 6%;
+    margin: 2% 4%;
+
+}
+
+#title{
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+
+#introduction p{
+    text-align: center;
+}
+
+#searchType{
+    margin: 5% 30%;
+    display: inline-block;
+    width: 100%;
+cursor: pointer;
+}
+#searchType li{
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    background-color: #FFFFFF;
+    list-style: none;
+
+}
+
+
+#searchType li:hover{
+    background-color: #00A5FF;
+   color: #FFFFFF;
+    transition: 0.2s;
+}
+#searchBar{
+
+    box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 18px;
+    margin: 0 auto 1%;
+    opacity: 0.8;
+}
+#searchBar:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+#search{
+    width: 80%;
+    height: 100%;
+    float: left;
+    border-radius: 18px;
+    outline: none;
+    padding-left: 1em;
+
+}
+
+#submit{
+    width: 20%;
+    height: 100%;
+    background:  linear-gradient(90deg, #00ff82 0%, #24e7ff 100%);
+    border-radius: 18px;
+    color: #000000;
+    float: left;
+    text-align: center;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+#submit:hover {
+    font-size: 1.4em;
+
+}
+
+#searchPlace{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#result {
+    display: none;
+    margin: 1% auto;
+    height: 50%;
+    border-radius: 20px;
+    background: #FFFFFF;
+    width: 50%;
+    opacity: 0.9;
+}
+#result li{
+    border: 1px solid #00A5FF;
+    list-style: none;
+    line-height: 30px;
+    margin:5% 5%;
+}
+#result li:hover{
+    background: #b8b8b8;
+    transition: 0.5s;
+}
+
+.result-author{
+    float: right;
+}
+.result-num{
+    margin-right: 1%;
+}
+#return{
+    width: 100%;
+    border-radius: 20px;
+    font-size: 40px;
+
+}
+
+#return:hover{
+    background-color: #00ff82;
+    color: #ffffff;
+    transition: 0.2s;
+}
+#music{
+
+}
+#music img{
+    width:200px;
+}
+footer {
+
+    height: 100px;
+
+}
+
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+}
